@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Memories 🌸</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- HEADER -->
+    <header class="header">
+        <p class="subtitle">A little place for</p>
+        <h1>My Memories 🌸</h1>
+    </header>
+
+
+    <!-- ALBUM SELECTOR -->
+    <section class="album-selector">
+
+        <button id="albumButton" class="album-button">
+            <span id="albumName">Choose Album</span>
+            <span class="arrow">⌄</span>
+        </button>
+
+        <div id="albumMenu" class="album-menu"></div>
+
+    </section>
+
+
+    <!-- PHOTO VIEWER -->
+    <main id="viewer" class="viewer hidden">
+
+        <div class="viewer-info">
+            <h2 id="currentAlbum">Album</h2>
+            <p id="photoCounter">0 / 0</p>
+        </div>
+
+
+        <!-- PHOTO CARD -->
+        <div class="card-area">
+
+            <div id="photoCard" class="photo-card">
+
+                <div class="glow"></div>
+
+                <img
+                    id="currentPhoto"
+                    src=""
+                    alt="Memory"
+                    draggable="false"
+                >
+
+            </div>
+
+        </div>
+
+
+        <p class="swipe-hint">
+            ← Swipe to browse →
+        </p>
+
+
+        <!-- SIMPLE ARROWS -->
+        <div class="navigation">
+
+            <button id="previousButton" class="nav-button">
+                ←
+            </button>
+
+            <button id="nextButton" class="nav-button">
+                →
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- INITIAL MESSAGE -->
+    <section id="welcome" class="welcome">
+
+        <div class="cute-face">
+            ૮ ˶ᵔ ᵕ ᵔ˶ ა
+        </div>
+
+        <h2>Choose an album 🌸</h2>
+
+        <p>
+            Pick an album above<br>
+            to see your memories.
+        </p>
+
+    </section>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

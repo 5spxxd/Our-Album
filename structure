@@ -1,0 +1,19 @@
+chiikawa-album/
+│
+├── index.html
+├── style.css
+├── script.js
+│
+└── images/
+    ├── holiday/
+    │   ├── photo1.jpg
+    │   ├── photo2.jpg
+    │   └── photo3.jpg
+    │
+    ├── family/
+    │   ├── photo1.jpg
+    │   └── photo2.jpg
+    │
+    └── random/
+        ├── photo1.jpg
+        └── photo2.jpg
